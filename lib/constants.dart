@@ -1,4 +1,16 @@
+// IMPORTS
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
+
+// PAGES
+List pages = [];
+
+// FIREBASE
+var firebaseAuth = FirebaseAuth.instance;
+var firebaseStorage = FirebaseStorage.instance;
+var firestore = FirebaseFirestore.instance;
 
 // COLORS
 const backgroundColor = Colors.black;
